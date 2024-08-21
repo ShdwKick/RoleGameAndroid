@@ -12,6 +12,9 @@
 /obj/
 
 # Avalonia Android specific
+/RoleGameAndroid/bin/
+/RoleGameAndroid/obj/
+/RoleGameAndroid/Intermediate/
 /RoleGameAndroid.Android/bin/
 /RoleGameAndroid.Android/obj/
 /RoleGameAndroid.Android/Intermediate/
