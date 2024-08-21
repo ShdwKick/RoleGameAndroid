@@ -1,33 +1,124 @@
-# Gradle files
+# Visual Studio
+.vscode/
+.vs/
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+**/.vsconfig
+
+# Avalonia Build output
+/bin/
+/obj/
+
+# Avalonia Android specific
+/RoleGameAndroid.Android/bin/
+/RoleGameAndroid.Android/obj/
+/RoleGameAndroid.Android/Intermediate/
+
+# Android Studio specific
 .gradle/
-build/
+/local.properties
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+.idea/workspace.xml
+.idea/codeStyles/
+.idea/vcs.xml
+.idea/.name
+.idea/misc.xml
+.idea/modules/
+/.idea/gradle.xml
+.idea/dictionaries/
+/.idea/assetWizardSettings.xml
+.idea/compiler.xml
+.idea/copyright/
+/.idea/scopes/
+/.idea/inspectionProfiles/
+/.idea/coverage/
+/.idea/artifacts/
+/.idea/deploymentTargetDropDown.xml
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Android build files
+**/build/
+**/out/
+gradle/wrapper/gradle-wrapper.properties
+gradle.properties
 
-# Log/OS Files
+# Maven files
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/.mvn/timing.properties
+
+# Log files
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Mobile Tools for Xamarin
+.nunit/
+.nuget/
 
-# IntelliJ
-*.iml
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# Uncomment if using NuGet package restore
+#**/packages/*
+# Uncomment if necessary however generally it will be restored on demand
+#**/project.lock.json
+#**/project.fragment.lock.json
+#**/artifacts/
+
+# MSBuild Binary Log
+*.binlog
+
+# Resharper
+_ReSharper.Caches/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# JetBrains Rider
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.idea_modules/
+.idea_settings/
+.idea_codeStyles/
+.idea_compiler.xml
+.idea_artifacts/
+/.idea/*
+/.idea/workspace.xml
+.idea/misc.xml
+.idea/tasks.xml
 
-# Keystore files
-*.jks
-*.keystore
+# Rider directories
+.idea/
+.idea_modules/
+.idea_settings/
+.idea_codeStyles/
+.idea_compiler.xml
+.idea_artifacts/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Rider files
+.idea/*.xml
 
-# Android Profiling
-*.hprof
+# Temp
+tmp/
+temp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
