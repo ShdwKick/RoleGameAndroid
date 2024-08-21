@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleGameAndroid", "RoleGameAndroid\RoleGameAndroid.csproj", "{3D9893F2-ED84-4A6A-A3B6-923B639275CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleGameAndroid.Android", "RoleGameAndroid.Android\RoleGameAndroid.Android.csproj", "{F5838890-5F46-427C-92ED-16A55DEA97B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D9893F2-ED84-4A6A-A3B6-923B639275CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9893F2-ED84-4A6A-A3B6-923B639275CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9893F2-ED84-4A6A-A3B6-923B639275CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9893F2-ED84-4A6A-A3B6-923B639275CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5838890-5F46-427C-92ED-16A55DEA97B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5838890-5F46-427C-92ED-16A55DEA97B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5838890-5F46-427C-92ED-16A55DEA97B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5838890-5F46-427C-92ED-16A55DEA97B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5838890-5F46-427C-92ED-16A55DEA97B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {168F8245-05ED-49EA-B5BE-C4CAE9291BEB}
+	EndGlobalSection
+EndGlobal
